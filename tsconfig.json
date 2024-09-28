@@ -1,0 +1,21 @@
+{
+     "compilerOptions": {
+          "target": "ESNext",
+          "module": "CommonJS",
+          "resolveJsonModule": true,
+          "allowJs": false,
+          "checkJs": false,
+          "outDir": "build",
+          "removeComments": true,
+          "downlevelIteration": true,
+          "noEmitOnError": true,
+          "esModuleInterop": true,
+          "forceConsistentCasingInFileNames": true,
+          "strict": true,
+          "noImplicitAny": true,
+          "strictNullChecks": true,
+          "strictFunctionTypes": true,
+          "skipLibCheck": true
+     },
+     "include": ["*", "src"]
+}

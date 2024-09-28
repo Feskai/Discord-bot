@@ -1,0 +1,33 @@
+{
+     "name": "ds-ts",
+     "version": "1.0.0",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "build": "tsc & node build/main.js"
+          
+     },
+     "keywords": [],
+     "author": "Maxim",
+     "license": "ISC",
+     "description": "https://github.com/Feskai/Discord-bot",
+     "dependencies": {
+          "@discordjs/rest": "^2.0.1",
+          "discord.js": "^14.13.0",
+          "dotenv": "^16.3.1",
+          "pino": "^7.0.0-rc.9",
+          "pino-pretty": "^11.2.2",
+          "ws": "^8.16.0"
+     },
+     "devDependencies": {
+          "@types/common-tags": "^1.8.4",
+          "@types/node": "^22.6.0",
+          "eslint": "^8.49.0"
+     },
+     "prettier": {
+          "trailingComma": "all",
+          "tabWidth": 5,
+          "semi": true,
+          "singleQuote": true
+     }
+}
